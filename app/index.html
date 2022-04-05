@@ -1,0 +1,148 @@
+<!--#set var="title" value="Create slider" -->
+<!--#include virtual="/parts/header.html" -->
+
+<div id="cursor"></div>
+
+<header class="home-header">
+
+	<div class="top-line">
+		<a href="#" class="logo">
+			<span class="logo__img-wrapper">
+				<img width="40" src="images/dist/logo.png" alt="vezdehod" class="logo__images">
+			</span>
+			<span class="logo__text">Вездеход</span>
+		</a>
+		<div class="top-line__decoration"></div>
+		<div class="top-line__contacts">
+			Телефон: <span class="top-line__numbers">179-20-00</span>
+			<span class="top-line__separator"></span>
+			<span class="top-line__address">Адрес: <span class="top-line__text">ул. Московская, 35</span></span>
+		</div>
+		<div class="top-line__decoration"></div>
+		<div class="menu-button-container">
+			<a href="#" class="menu-button"></a>
+		</div>
+	</div>
+
+	<div class="home-header__content">
+		<aside class="home-aside">
+			<div class="home-aside__decoration"></div>
+			<div class="home-aside__soc">
+				<div class="home-aside__soc-items">
+					<a href="#" class="soc-item" target="_blank">
+						<img src="images/src/instagram-brands.svg" alt="instagram">
+					</a>
+					<a href="#" class="soc-item" target="_blank">
+						<img src="images/src/telegram-brands.svg" alt="telegram">
+					</a>
+					<a href="#" class="soc-item" target="_blank">
+						<img src="images/src/facebook-f-brands.svg" alt="facebook">
+					</a>
+					<a href="#" class="soc-item" target="_blank">
+						<img src="images/src/twitter-brands.svg" alt="twitter">
+					</a>
+				</div>
+			</div>
+			<div class="home-aside__share-icon"></div>
+		</aside>
+
+		<div class="slider-container">
+
+			<div class="slider-text">
+
+				<div class="swiper-wrapper">
+
+					<div class="swiper-slide slider-text__slide">
+						<div class="slider-text__content">
+							<h2 class="slider-text__heading">Подбор автомобиля <span>на любой</span> случай</h2>
+							<p class="slider-text__desc">Выберем и подберём для вас любой автомобиль в кратчайшие сроки, с учётом всех
+								ваших пожеланий и всех необходимых потребностей.</p>
+							<button data-micromodal-open="modal-1" class="button slider-text__button"><span>Оставить заявку</span></button>
+						</div>
+					</div>
+					<div class="swiper-slide slider-text__slide">
+						<div class="slider-text__content">
+							<h2 class="slider-text__heading">Индивидуальный подход <span>к каждому</span> покупателю</h2>
+							<p class="slider-text__desc">Все автомобили мы подбираем индивидуально для каждого клиента или покупателя
+								и с трепотом относимся к результату нашей работы.</p>
+							<button class="button slider-text__button"><span>Оставить заявку</span></button>
+						</div>
+					</div>
+					<div class="swiper-slide slider-text__slide">
+						<div class="slider-text__content">
+							<h2 class="slider-text__heading">Выбор лучшей модели <span>из модельного</span> ряда</h2>
+							<p class="slider-text__desc">В нашем модельном ряду имеются модели сотен различных спорткаров, которые
+								удовлетворяют даже самого требовательного клиента.</p>
+							<button class="button slider-text__button"><span>Оставить заявку</span></button>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="slider-img">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide slider-img__slide">
+						<div class="slider-img__bg" data-swiper-parallax="20%"
+							style="background-image: url(images/src/1photo.jpeg);"></div>
+					</div>
+					<div class="swiper-slide slider-img__slide">
+						<div class="slider-img__bg" data-swiper-parallax="20%"
+							style="background-image: url(images/src/2photo.jpg);"></div>
+					</div>
+					<div class="swiper-slide slider-img__slide">
+						<div class="slider-img__bg" data-swiper-parallax="20%"
+							style="background-image: url(images/src/3photo.jpg);"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="slider-bottom">
+
+				<div class="slider-share">
+					<div class="slider-share__items">
+						<a href="#" class="soc-item slider-share__item" target="_blank">
+							<img src="images/src/instagram-brands.svg" alt="instagram">
+						</a>
+						<a href="#" class="soc-item slider-share__item" target="_blank">
+							<img src="images/src/telegram-brands.svg" alt="telegram">
+						</a>
+						<a href="#" class="soc-item slider-share__item" target="_blank">
+							<img src="images/src/facebook-f-brands.svg" alt="facebook">
+						</a>
+					</div>
+				</div>
+				
+				<div class="slider-pagination">
+					<div class="swiper-pagination"></div>
+				</div>
+				<div class="slider-scrollbar">
+					<div class="swiper-scrollbar"></div>
+				</div>
+				<div class="slider-navigation">
+					<div class="slider-navigation__container">
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-button-next"></div>
+					</div>
+				</div>
+
+			</div> <!-- slider-bottom -->
+
+			<div class="slider-pagination-count">
+				<span class="current">01</span> / <span class="total"></span>
+			</div>
+
+			<div class="slider-pagination-current"><span class="slider-pagination-current__num">01</span><span class="slider-pagination-current__dot">.</span> </div>
+
+			<div class="slider-gear"></div>
+
+		</div> <!-- slider-container -->
+
+	</div>
+
+</header>
+
+<!--#include virtual="/parts/modal.html" -->
+
+<!--#include virtual="/parts/footer.html" -->
